@@ -18,9 +18,19 @@ label start:
     # Show text with a typewriter effect
     window hide
 
+    show screen computer("Can")
+    $ renpy.pause(0.5)
+    show screen computer("Can you")
+    $ renpy.pause(0.5)
+    show screen computer("Can you read")
+    $ renpy.pause(0.5)
     show screen computer("Can you read this?")
     $ renpy.pause()
 
+    show screen computer("Are")
+    $ renpy.pause(0.5)
+    show screen computer("Are we")
+    $ renpy.pause(0.5)
     show screen computer("Are we connected?")
     $ renpy.pause()
 
